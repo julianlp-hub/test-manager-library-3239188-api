@@ -59,3 +59,15 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 | docs/trazabilidad.md | Matriz HU → CA → endpoint → tarea → evidencia |
 
 Alcance: se entrega el diseño completo (documentación guiada por el spec).
+
+## Alcance de esta entrega
+
+Se entrega el **diseño completo** del backend, guiado por el spec (SDD): traducción de
+.NET a Laravel, migraciones, contrato de endpoints y matriz de trazabilidad.
+Las tareas T-01 a T-19 quedan **diseñadas y trazadas**, no programadas.
+
+La evidencia ejecutable de esta entrega es el servicio de base de datos del repo `infra`
+(T-20): `docker compose up -d` levanta PostgreSQL 16 vacío y saludable.
+
+Siguiente paso natural: implementar en el orden de `tasks.md`, empezando por T-01
+(esqueleto Laravel y `GET /health`) y T-02 (migraciones de `docs/migraciones.md`).
