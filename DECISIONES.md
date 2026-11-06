@@ -51,4 +51,4 @@ Nunca trazas, SQL ni rutas. 401/403/404/409/422 según api-contract §1 y §2.
 Pest. `Carbon::setTestNow()` hace de Clock falso. Los casos de uso se prueban con fakes.
 
 ## 7. Trazabilidad
-(tabla HU → CA → endpoint → tarea → evidencia; ver abajo)
+La matriz HU → CA → endpoint → tarea → evidencia está en `docs/trazabilidad.md`.
