@@ -48,3 +48,14 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 | [`test-manager-library-3239188-page`](https://github.com/code-sena/test-manager-library-3239188-page) | Sitio público estático de presentación |
 | [`test-manager-library-3239188-infra`](https://github.com/code-sena/test-manager-library-3239188-infra) | Contenedores, red, volúmenes y motor de base de datos vacío |
 | [`test-manager-library-3239188-tool`](https://github.com/code-sena/test-manager-library-3239188-tool) | Utilidades: sembrador de datos de demostración |
+
+## Contenido de este repositorio
+
+| Documento | Qué es |
+|---|---|
+| DECISIONES.md | Traducción del spec .NET a Laravel |
+| docs/migraciones.md | Modelo de datos y orden de migraciones |
+| docs/endpoints.md | Contrato de la API, roles y errores |
+| docs/trazabilidad.md | Matriz HU → CA → endpoint → tarea → evidencia |
+
+Alcance: se entrega el diseño completo (documentación guiada por el spec).
